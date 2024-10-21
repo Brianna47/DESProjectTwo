@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html {
+    
+}*/
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+em {
+    color: rgb(190, 84, 84);
+    position: relative;
+    left: 49%;
+   
+}
+
+.textdecor {
+    font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 90px;
+  position: relative;
+  text-align: center;
+
+}
+
+.text {
+    opacity: 1;
+    animation-name: fadeinopacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+}
+
+@keyframes fadeinopacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

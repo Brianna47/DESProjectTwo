@@ -23,29 +23,9 @@ h1 {
     font-family: "Baskervville", serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 80px;
+  font-size: 90px;
   padding-top: 15%;
   padding-left: 3%;
 
-}
-
-
-h3 {
-    font-family: "Baskervville", serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 50px;
-    position: relative;
-    left: 70%;
-    top: 10%;
-  
-}
-
-.scale:hover {
-    transform: scale(2,2);
-}
-
-.scale {
-    transition-duration: 8s;
 }
 

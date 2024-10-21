@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+}
+
+em {
+    color: rgb(190, 84, 84);
+}
+
+div {
+    font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 90px;
+  /*padding-top: 15%;
+  padding-left: 3%;*/
+  position: relative;
+  top: 45%;
+  left: 5%;
+}
+
+div p {
+    position: relative;
+    bottom: 50%;
+    left: 65%;
+}
+
+p:hover {
+    animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(5deg);
+    }
+    25% {
+        transform: rotate(-6deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    75% {
+        transform: rotate(-6deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+
+}
