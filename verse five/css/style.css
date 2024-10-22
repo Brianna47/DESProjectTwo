@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/*html {
-    
-}*/
 
 
 body {
@@ -15,17 +12,58 @@ body {
     background-color: antiquewhite;
 }
 
-em {
-    color: rgb(190, 84, 84);
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
-h1 {
+
+p {
     font-family: "Baskervville", serif;
   font-weight: 400;
   font-style: italic;
   font-size: 90px;
-  padding-top: 15%;
-  padding-left: 3%;
 
 }
 
+.positiontwo {
+    position: relative;
+    top: 35%;
+    left: 20%;
+    animation: move-words 20s linear infinite;
+    margin: 0;
+}
+
+@keyframes move-words {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+
+
+
+.position {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    animation: move-words-right 20s linear infinite;
+    margin: 0;
+}
+
+@keyframes move-words-right {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+p:hover {
+    color: #be5454
+}

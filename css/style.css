@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-/*html {
-    
-}*/
-
 
 body {
     width: 100%;
@@ -16,7 +12,12 @@ body {
 }
 
 em {
-    color: rgb(190, 84, 84);
+    color: #be5454;
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 h1 {
@@ -41,11 +42,15 @@ h3 {
   
 }
 
-.scale:hover {
-    transform: scale(2,2);
+h3:hover {
+    text-shadow: 0 0 5px #be5454;
+    color: #be5454;
 }
 
-.scale {
-    transition-duration: 8s;
+.rotate:hover {
+    transform: rotate(360deg);
 }
 
+.rotate {
+    transition-duration: 5s;
+}
